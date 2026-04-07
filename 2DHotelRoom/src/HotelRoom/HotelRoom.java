@@ -14,7 +14,7 @@ public class HotelRoom {
 		while (choice != 4) {
 			System.out.println("=== HOTEL RESERVATION SYSTEM ===");
 			System.out.println(
-					"1. View Rooms"
+							  "1. View Rooms"
 							+ "\n2. Check In"
 							+ "\n3. Check Out"
 							+ "\n4. Exit" );
