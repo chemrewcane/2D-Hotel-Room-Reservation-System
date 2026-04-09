@@ -14,7 +14,7 @@ public class HotelRoom {
 		while (choice != 4) {
 			System.out.println("=== HOTEL RESERVATION SYSTEM ===");
 			System.out.println(
-							  "1. View Rooms"
+					"1. View Rooms"
 							+ "\n2. Check In"
 							+ "\n3. Check Out"
 							+ "\n4. Exit" );
@@ -25,7 +25,7 @@ public class HotelRoom {
 			switch (choice) {
 			case 1:
 				for (int x = 6; x >= 0; x--) {
-					System.out.println("Floor " + (x + 1) + ": ");
+					System.out.print("Floor " + (x + 1) + ":");
 					for (int y = 0; y < 5; y++) {
 						System.out.print("[" + hotel[x][y] + "]");	
 					}
