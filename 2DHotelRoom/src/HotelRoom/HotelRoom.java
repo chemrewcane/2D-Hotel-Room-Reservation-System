@@ -10,9 +10,11 @@ public class HotelRoom {
 		int hotel[][] = new int[7][5];
 		int choice = 0;
 
+		System.out.println("=== HOTEL RESERVATION SYSTEM ===");
+		
 		//While loop
 		while (choice != 4) {
-			System.out.println("=== HOTEL RESERVATION SYSTEM ===");
+			System.out.println();
 			System.out.println(
 					"1. View Rooms"
 							+ "\n2. Check In"
@@ -65,6 +67,12 @@ public class HotelRoom {
 				break;
 			default:
 				System.out.println("Invalid. Please try again.");
+			}
+			
+			//Additional for my code (for inputing '4').
+			while (choice == 4) {
+				System.out.println("Thank you! Please come again!");
+				break;
 			}
 		}
 	}
